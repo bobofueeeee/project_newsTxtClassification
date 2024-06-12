@@ -1,0 +1,4 @@
+# python=3.8   conda_env=dataMining_txtClassification
+scikit-learn==1.3.2
+pandas==2.0.3
+numpy==1.24.4
