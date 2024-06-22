@@ -524,7 +524,6 @@ def batch_slice(data, batch_size):
 
         yield docs
 
-
 def data_iter(data, batch_size, shuffle=True, noise=1.0):
     """
     randomly permute data, then sort by source length, and partition into batches
@@ -732,7 +731,6 @@ class Trainer():
                     logging.info('\n' + report)
 
         return f1
-
 
 
     def batch2tensor(self, batch_data):
