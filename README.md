@@ -1,15 +1,16 @@
-# 深度学习_NLP_文本分类任务
+# project_newsTxtClassification
 
-#### 介绍
+#### Introduction
 
-项目地址：https://tianchi.aliyun.com/competition/entrance/531810/information
+This project involves a news text classification task, utilizing machine learning algorithms such as TF-IDF, as well as deep learning approaches like word2vec combined with RNN. The subsequent BERT algorithm is yet to be incorporated.
 
-新闻文本分类任务，使用了TF-IDF的机器学习算法，word2vec+RNN的深度学习算法，后续的bert算法待补充
+#### Architecture
+1. CountVectorizer + RidgeClassifier
+2. TF-IDF + RidgeClassifier
+3. RidgeClassifier model save
+4. embedding + Classifier（lstm,bert,RidgeClassifier）
+5. solve problems
 
-#### 软件架构
-01RidgeClassifier岭回归
+details see Process Recording File：04项目过程-V20250416.md
 
-02TF-IDF
-
-03构建vocab +  Embedding
 
